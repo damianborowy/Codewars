@@ -4,6 +4,11 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class MorseCodeDecoder {
+    /*
+        Unused MorseCode map is here only to stop compilator from
+        showing errors. More details about it at line 52.
+    */
+    private static Map<String, String> MorseCode;
     private static Map<String, String> morseMapCreator() {
         Map<String, String> result = new HashMap<>();
 
@@ -48,8 +53,8 @@ public class MorseCodeDecoder {
         It was provided by the online compilator located at codewars.com,
         it's of type Map<String, String> where the first string is a
         character in Morse code, whereas the second string is it's
-        equivalent in the Latin alphabet
-     */
+        equivalent in the Latin alphabet.
+    */
     public static String decodeMorse(String morseCode) {
         return Arrays.stream(morseCode.split(" {3}"))
                 .map(word -> Arrays.stream(word.split(" "))
