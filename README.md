@@ -4,3 +4,8 @@ Most of the algorithms were written using IntelliJ IDEA with JDK 11. They weren'
 For more information about certain algorithm, see the link in the first line of each file.
 
 [My Codewars profile](https://www.codewars.com/users/TyMoOteUuSz)
+
+## Built with
+
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/) - IDE
+* [GitKraken](https://www.gitkraken.com/) - version control
