@@ -15,6 +15,7 @@ public class BinominalExpansion {
                 sign = -1;
                 expression = expression.substring(1);
             }
+			//example
 
             String[] coefficientsTab;
             if (expression.contains("-"))
